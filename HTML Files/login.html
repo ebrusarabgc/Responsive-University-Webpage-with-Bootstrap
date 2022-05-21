@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login | Eskisehir Technical University</title>
+    <link rel="stylesheet" type="text/css" href="/CSS Files/style.css">
+    <link rel="shortcut icon" href="/Images/logo.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <header class="jumbotron text-center">
+            <h1><a href="home.html">ESKISEHIR TECHNICAL UNIVERSITY</a></h1>
+        </header>
+        <div class="row" style="width: 100%; margin: auto;">
+            <nav class="nav flex-column navbar-light bg-light col-sm-2">
+                <a href="home.html" class="btn bg-transparent btn-block">HOME</a>
+                <a href="university.html" class="btn bg-transparent btn-block">UNIVERSITY</a>
+                <a href="academics.html" class="btn bg-transparent btn-block">ACADEMICS</a>
+                <div class="dropdown">
+                    <a href="students.html" class="btn bg-transparent btn-block">STUDENTS</a>
+                    <div class="dropdown-content">
+                        <a href="login.html" class="btn bg-transparent btn-block">STUDENT LOGIN</a>
+                        <a href="documents.html" class="btn bg-transparent btn-block">DOCUMENTS</a>
+                    </div>
+                </div>
+                <a href="research.html" class="btn bg-transparent btn-block">RESEARCH</a>
+                <a href="campuslife.html" class="btn bg-transparent btn-block">CAMPUS LIFE</a>
+            </nav>
+
+            <section class="container center-section col-sm-7">
+                <form action="home.html">
+                    <div class="row justify-content-center">
+                        <table class="table table-borderless col-6" style="text-align: center;">
+                            <thead>
+                                <tr>
+                                    <th colspan="2"><h4>Student Login</h4></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><label for="user-name">Enter your username: </label></td>
+                                    <td><input type="text" name="user-name" id="user-name" placeholder="Username"
+                                            required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="password">Enter your password: </label></td>
+                                    <td><input type="password" name="password" id="password" placeholder="Password"
+                                            required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="submit" value="Login" class="btn btn-light border">
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </form>
+            </section>
+            <div class="col-2 bg-light sidebar">
+            </div>
+        </div>
+        <footer class="page-footer font-small bg-secondary">
+            <div class="footer-copyright text-center py-3">
+                © All rights reserved.
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
