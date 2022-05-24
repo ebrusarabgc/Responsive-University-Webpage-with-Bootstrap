@@ -92,26 +92,8 @@ table {
         width: 90%;
     }
 
-    .bigger-img:hover {
-        width: 100%;
-    }
-
-    iframe {
-        width: 100%;
-    }
-
     .sidebar {
         display: none;
-    }
-
-    .cl-card {
-        width: 80%;
-    }
-
-    .redirect {
-        display: flex;
-        flex-direction:column;
-        align-items: center;
     }
 }
 
